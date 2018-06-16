@@ -1,7 +1,5 @@
-html{
-  font-size: 20px;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700');
 
-p {
-  font-size: 2rem;
+.jumbotron h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
 }
