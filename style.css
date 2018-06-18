@@ -30,3 +30,7 @@ button.btn-green:hover {
   background-color: #ceff25;
   color: palevioletred;
 }
+
+nav img {
+  height: 80;
+}
