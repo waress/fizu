@@ -1,0 +1,12 @@
+
+.image-border {
+  border-radius: 15px 140px 30px 5px;
+}
+
+.image-grayscale {
+  filter: grayscale(90%);
+}
+
+.image-sepia {
+  filter: sepia(90%);
+}
