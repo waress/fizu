@@ -90,5 +90,21 @@ nav img {
 }
 
 .line {
+  font-size: 1.5rem;
+  margin: 0 0 1em;
+  padding: 0;
+  text-shadow: 1px 1px 1px #000;
+  position: relative;
+  overflow: 0;
+  text-align: center;
+}
 
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: purple;
+  text-decoration: none;
 }
