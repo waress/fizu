@@ -91,12 +91,28 @@ nav img {
 
 .line {
   font-size: 1.5rem;
-  margin: 0 0 1em;
+  margin: 0 0 0 1em;
   padding: 0;
   text-shadow: 1px 1px 1px #000;
   position: relative;
-  overflow: 0;
+  overflow: hidden;
   text-align: center;
+}
+
+.line:before, .line:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-left: -999em;
+  height: 2px;
+  width: 998em;
+  border-top: 1px solid white;
+}
+
+.line:after{
+  left: auto;
+  width: 999em;
+  margin: 0 0 0 1em;
 }
 
 footer a {
