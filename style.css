@@ -91,7 +91,7 @@ nav img {
 
 .line {
   font-size: 1.5rem;
-  margin: 0 0 0 1em;
+  margin: 0 0 1em 0;
   padding: 0;
   text-shadow: 1px 1px 1px #000;
   position: relative;
