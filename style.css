@@ -124,3 +124,13 @@ footer a:hover {
   color: purple;
   text-decoration: none;
 }
+
+/* kedvenc-stat */
+.blog-card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  transition: box-shadow .22s ease-out;
+}
+
+.blog-card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
