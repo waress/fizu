@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:700');
 @import url('https://fonts.googleapis.com/css?family=Galindo');
 
-
+@media (min-width: 1200px){
+  html {
+    font-size: 18px;
+  }
+}
 
 .jumbotron h1 {
   font-family: 'Montserrat Alternates', sans-serif;
