@@ -155,3 +155,46 @@ footer a:hover {
 .btn-facebook:hover, .btn-facebook:active {
   background-color: #263961;
 }
+
+/* bejelentkezes.html */
+.bejelentkezes {
+  background-image: url(img/login-bg.jpg);
+  min-height: 100vh;
+  background-size:cover;
+  background-position: center;
+  padding: 8% 0;
+}
+
+.login-card {
+  background-color: rgba(42, 47, 51, .8);
+  color: #fff;
+}
+
+.login-card .form-control {
+  background-color: rgba(42, 47, 51, .8);
+  border-color: transparent;
+}
+
+.login-card .form-control:focus {
+  background-color: rgba(42, 47, 51, .4);
+  border-color: #3384aa;
+  outline: none;
+  box-shadow: none;
+  color: #eff0f7;
+}
+
+.login-card .form-control::placeholder {
+  color: #d6d7de;
+}
+
+.login-card a{
+  color: #eff0f7;
+}
+
+.login-card-header {
+  background-color: rgba(42, 47, 51, .8);
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #eff0f7;
+}
